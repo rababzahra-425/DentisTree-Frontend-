@@ -1,0 +1,677 @@
+/* Typography */
+.merriweather {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Background Colors */
+.bg-color {
+  background: linear-gradient(90deg, rgb(0, 51, 102) 0%, rgb(179, 229, 252) 100%) !important;
+}
+
+.bg-theme-dark {
+  background-color: #003366 !important;
+  color: #fff !important;
+}
+
+.bg-grays {
+  background-color: #e0e7ef !important;
+}
+
+.facts {
+  background-image: linear-gradient(90deg, #b3e5fc 0%, #003366 100%);
+}
+
+/* Text Colors */
+.text-main {
+  color: #b3e5fc !important;
+}
+
+.text-second {
+  color: #003366 !important;
+}
+
+.text-title {
+  color: #003366 !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+/* Headings */
+section h2 {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 44px;
+  letter-spacing: 0;
+  color: #003366;
+}
+
+/* Link Hover Styling */
+.link h3:hover {
+  color: #003366 !important;
+}
+
+.mail a {
+  color: rgb(85, 79, 79) !important;
+}
+
+.mail a:hover {
+  color: rgb(61, 61, 202) !important;
+}
+
+.widget-title {
+  color: white;
+}
+
+.widget ul li a:hover {
+  text-decoration: underline !important;
+  color: white !important;
+}
+
+.hero {
+  background-color: #f8f9fa; /* Light grey/white background */
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+
+
+.hero h1,
+.hero h3,
+.hero p,
+.hero .btn {
+  color: #003366 !important;
+}
+
+.hero .btn {
+  border: 2px solid #003366 !important;
+}
+
+.hero .btn:hover {
+  background-color: #003366;
+  color: #fff !important;
+  border: 2px solid #003366 !important;
+}
+
+/* Counter Cards */
+.counter-cards {
+  transition: transform 0.3s ease-in-out;
+}
+
+.counter-cards:hover {
+  cursor: pointer;
+  transform: translateY(-10px) !important;
+}
+
+/* Image Swap on Hover */
+.image-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.default-image,
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-image {
+  opacity: 0;
+}
+
+.cards:hover .default-image {
+  opacity: 0;
+}
+
+.cards:hover .hover-image {
+  opacity: 1;
+}
+
+/* Navigation Styles */
+.nav-item .nav-link,
+.dropdown-item {
+  font-family: 'Merriweather', serif;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #343f52 !important;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0.1rem !important;
+  border-bottom: 3px solid #003366;
+  margin-left: var(--bs-navbar-nav-link-padding-x);
+  margin-right: var(--bs-navbar-nav-link-padding-x);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-nav .nav-link:focus,
+.dropdown-item.active {
+  color: #343f52 !important;
+  padding-bottom: 0.1rem !important;
+  border-bottom: 3px solid #003366;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #b3e5fc !important;
+}
+
+.navbar-nav .nav-link.show {
+  color: #b3e5fc !important;
+}
+
+/* Sticky Nav */
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.is-sticky .navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-clone {
+  top: 44px !important;
+}
+
+.topbar {
+  display: block;
+}
+
+.navbar-expand-lg.transparent:not(.fixed) {
+  padding-top: 0 !important;
+}
+
+
+
+.navbar-nav {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  
+  .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+    white-space: nowrap; 
+  }
+}
+
+/* Make the image cover the entire height of the hero area */
+.hero-img-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-img-wrapper img {
+  object-fit: cover; /* This makes the image fill the area without stretching */
+  object-position: center;
+  border-radius: 0; /* Removing the border-radius makes it look more integrated into the edge */
+}
+
+/* Adjust font sizes to match the template exactly */
+
+
+.hero-text h3 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+
+.hero-text h1 {
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* Optional: Adds a nice fade-in for the whole block */
+
+/* Removes any blurry rendering */
+.merriweather {
+  font-family: 'Merriweather', serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Make the heading very large and bold */
+.display-1 {
+  font-size: 4.5rem !important;
+  color: #ffffff !important;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3); /* Adds depth to text */
+}
+
+/* Custom button hover */
+.btn-outline-white:hover {
+  background-color: white !important;
+  color: #003366 !important;
+}
+
+/* Reduce Topbar Height */
+.bg-color.py-1 {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  font-size: 13px; /* Slightly smaller text for a cleaner look */
+}
+
+/* Ensure Unicons are visible */
+.uil {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Social Icon Hover */
+.hover:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+/* 1. Ensure the header container doesn't have hidden overflows */
+.header-container {
+  width: 100%;
+  position: relative;
+  z-index: 1030;
+}
+
+/* 2. Full-width Sticky Navbar Fix */
+.navbar.fixed {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100vw !important; /* Forces it to fill the entire screen width */
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* Softer shadow */
+  padding: 10px 0 !important;
+  border-bottom: 1px solid #f0f0f0;
+  
+  /* Slide-down animation */
+  animation: slideDown 0.4s ease-out forwards;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+/* 3. Smooth Scroll for all links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Modern Appointment Button */
+.btn-modern-appointment {
+  background: linear-gradient(135deg, #003366 0%, #00509d 100%);
+  color: #ffffff !important;
+  padding: 10px 24px;
+  border-radius: 50px; /* Fully rounded pill shape */
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 51, 102, 0.2);
+  border: none;
+  display: inline-block;
+}
+
+.btn-modern-appointment:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 51, 102, 0.3);
+  background: linear-gradient(135deg, #00509d 0%, #003366 100%);
+}
+
+/* Perfect Vertical Alignment for Nav Items */
+.navbar-nav {
+  display: flex;
+  align-items: center; /* Forces all links and button to center vertically */
+}
+
+.nav-link {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Ensure the Logo Brand area matches the height */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Hero Section Layout */
+
+
+.hero-full-height {
+  min-height: 85vh;
+}
+
+/* Container Spacing */
+.hero-text-container {
+  text-align: left;
+  padding-left: 0; /* Align perfectly to the left grid */
+}
+
+/* 10 YEARS OF EXCELLENCE - Smaller and more spaced out */
+.hero-subheading {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 13px; /* Smaller for a modern look */
+  letter-spacing: 3px; /* High letter spacing is very modern */
+  text-transform: uppercase;
+  color: #00509d;
+  margin-bottom: 10px;
+}
+
+/* YOUR SMILE, OUR COMMITMENT - Reduced size */
+.hero-title {
+  font-family: 'Merriweather', serif;
+  font-weight: 800;
+  color: #003366;
+  font-size: 2.8rem; /* Scaled down from 3.5rem to look sleeker */
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+/* DESCRIPTION TEXT - Made it lighter and more modern */
+.hero-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem; /* Standard readable size */
+  color: #1c1d1d; /* Slightly lighter gray for a modern feel */
+  max-width: 420px; /* Thinner text blocks look more professional */
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+/* BUTTON - Sleek and consistent with Navbar */
+.btn-modern-appointment {
+  background: #003366; 
+  color: #ffffff !important;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 51, 102, 0.15);
+}
+
+.btn-modern-appointment:hover {
+  transform: translateY(-2px);
+  background: #00509d;
+  box-shadow: 0 6px 15px rgba(0, 51, 102, 0.25);
+}
+
+/* Section Padding and Gap */
+.about-section-container {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.about-image-wrapper {
+  margin-left: -30px;
+  display: flex;
+  align-items: stretch;    /* Helps the container fill the vertical space */
+}
+
+.about-main-img {
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+  width: 160%;
+  
+  /* Height Adjustments */
+  height: 490px;           /* Sets a specific taller height */
+  object-fit: cover;       /* CRITICAL: Prevents the image from looking stretched */
+  object-position: center; /* Keeps the doctors centered in the frame */
+}
+
+/* Subheading Styling */
+.about-subheading-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-tag {
+  color: #00509d;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-right: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about-decorative-line {
+  height: 2px;
+  width: 373px;
+  background-color: #7699b9;
+}
+
+/* 2-Line Main Heading */
+.about-main-title {
+  font-family: 'Merriweather', serif;
+  color: #003366;
+  font-weight: 800;
+  font-size: 2.8rem; /* Slightly larger for impact */
+  line-height: 1.2;
+  margin-bottom: 25px;
+  /* Removed white-space: nowrap to allow the <br /> to work */
+}
+
+/* Typography */
+.about-text-primary {
+  color: #60697b;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 35px;
+  max-width: 550px;
+}
+
+/* MATCHING BUTTON: Using your header's button style */
+.btn-modern-appointment {
+  background: #003366; 
+  color: #ffffff !important;
+  padding: 12px 35px;
+  border-radius: 50px;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 51, 102, 0.2);
+}
+
+.btn-modern-appointment:hover {
+  background: #00509d;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustment */
+@media (max-width: 991px) {
+  .about-main-img {
+    height: 400px;         /* Slightly shorter for tablets/phones */
+  }
+}
+  .about-main-title {
+    font-size: 2.2rem;
+  }
+
+
+  /* Container Padding */
+.services-section-padding {
+  padding: 80px 0;
+}
+
+/* Main Heading Style - Matches 'About' section */
+.services-main-title {
+  font-family: 'Merriweather', serif;
+  color: #003366;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 60px;
+}
+
+/* Card Title Style */
+.service-card-title {
+  color: #003366;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+/* Card Body Text */
+.service-card-text {
+  color: #60697b;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .services-main-title {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+  }
+}
+
+/* Main Heading Style - Matches 'Best Dental Hospital' */
+.services-main-title {
+  font-family: 'Merriweather', serif; /* Elegant serif look */
+  color: #003366;                    /* Deep professional blue */
+  font-weight: 800;
+  font-size: 2.8rem;                 /* Bold and large for impact */
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Slider Navigation Buttons */
+.btn-slider-blue {
+  background-color: #26445f !important; /* Matches your 'Book Appointment' button */
+  border: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(38, 107, 175, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-slider-blue:hover {
+  background-color: #053769 !important; /* Slightly darker on hover */
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* White Arrows inside the Blue Buttons */
+.btn-slider-blue i {
+  color: #ffffff !important;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Custom Pagination Dots */
+.custom-pagination .swiper-pagination-bullet {
+  background:#00509d;
+  opacity: 0.3;
+  
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background: #003366;
+  opacity: 1;
+  width: 25px; /* Makes the active dot elongated for a modern look */
+  border-radius: 10px;
+}
+
+/* Responsive adjustment for the title */
+@media (max-width: 768px) {
+  .services-main-title {
+    font-size: 2.2rem;
+  }
+}
+
+/* Ensure your global class in style.css supports the layout */
+.services-main-title {
+  font-family: 'Merriweather', serif;
+  color: #003366;
+  font-weight: 800;
+  font-size: 2.8rem;
+  line-height: 1.2;
+}
+
+/* Add this if you want to override the default center-alignment for this section */
+.text-start.services-main-title {
+  text-align: left !important;
+}
+
+/* Hero Section Layout */
+.hero-section {
+  position: relative;
+  min-height: 85vh;
+  overflow: hidden; /* Keeps slider contained */
+}
+
+/* Background Slider styles */
+.hero-swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Behind text */
+}
+
+.hero-slide-bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Ensure content stays on top */
+.hero-content-overlay {
+  position: relative;
+  z-index: 2; /* Above the slider */
+  pointer-events: none; /* Allows clicking through to buttons if needed */
+}
+
+.hero-content-overlay a {
+  pointer-events: auto; /* Re-enables clicking for buttons */
+}
+
+.hero-full-height {
+  min-height: 85vh;
+}
+
+/* Keep your existing .hero-subheading, .hero-title, etc., below this */
