@@ -28,7 +28,7 @@
 //     const submissionData = { ...formData, date: fullDateTime };
 
 //     try {
-//       const response = await fetch('${API}/appointments/create/', {
+//       const response = await fetch(`${API}/appointments/create/`, {
 //         method: 'POST',
 //         headers: { 'Content-Type': 'application/json' },
 //         body: JSON.stringify(submissionData),
@@ -218,7 +218,7 @@ const AppointmentForm = ({ formRef}) => {
   const [isError, setIsError] = useState(false);
 
   useEffect(() => {
-    fetch('${API}/services/')
+    fetch(`${API}/services/`)
       .then(res => res.json())
       .then(data => setServices(data))
       .catch(err => console.error("Error fetching services:", err));
@@ -230,7 +230,7 @@ const AppointmentForm = ({ formRef}) => {
     const submissionData = { ...formData, date: fullDateTime };
 
     try {
-      const response = await fetch('${API}/appointments/create/', {
+      const response = await fetch(`${API}/appointments/create/`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(submissionData),
