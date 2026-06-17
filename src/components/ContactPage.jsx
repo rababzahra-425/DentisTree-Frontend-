@@ -146,7 +146,7 @@ const clinicOpen = isClinicOpen();
           <div className="divider-line" style={{ marginBottom: '32px' }} data-aos="fade-up" data-aos-delay="100" />
           <div className="d-flex justify-content-center flex-wrap gap-3" data-aos="zoom-in" data-aos-delay="160">
   <a
-    href="https://m.me/YOUR_FACEBOOK_PAGE_USERNAME"
+    href="https://www.instagram.com/dentistree_swl?igsh=YjJrazZqYmc0em85"
     target="_blank"
     rel="noopener noreferrer"
     className="social-btn btn-msng"
@@ -164,7 +164,7 @@ const clinicOpen = isClinicOpen();
   </a>
 
   <a
-    href="https://www.facebook.com/"
+    href="https://www.facebook.com/share/191yAcqH9L/"
     target="_blank"
     rel="noopener noreferrer"
     className="social-btn btn-fb"

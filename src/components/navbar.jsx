@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logoImg from '../assets/img/Dentis_Tree_Namee.png';
-import logoo from '../assets/img/Dentis_Tree_logooo.png';
+import logo from '../assets/img/Dentis_Tree_logoo.png';
 
 import Topbar from './Topbar';
 
@@ -70,8 +70,8 @@ const Navbar = ({ formRef }) => {
           >
             <img
               alt="DentisTree logo"
-              src={logoo}
-              style={{ width: '110px', height: 'auto', display: 'block' }}
+              src={logo}
+              style={{ width: '80px', height: 'auto', display: 'block' }}
             />
             <img
               alt="DentisTree"
