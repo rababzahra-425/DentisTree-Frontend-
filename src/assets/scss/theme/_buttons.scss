@@ -419,9 +419,17 @@ $value in $brand-colors {
 .social.social-white a i,
 .social.social-white a:hover i,
 .navbar-dark .social.social-muted a:not(.btn-circle):not([class*="link-"]) i,
-.navbar-dark .social.social-muted a:not(.btn-circle):not([class*="link-"])uıy:hover i {
+// .navbar-dark .social.social-muted a:not(.btn-circle):not([class*="link-"])uıy:hover i {
+//   color: $white !important;
+//}
+
+.social.social-white a i,
+.social.social-white a:hover i,
+.navbar-dark .social.social-muted a:not(.btn-circle):not([class*="link-"]) i,
+.navbar-dark .social.social-muted a:not(.btn-circle):not([class*="link-"]):hover i {
   color: $white !important;
 }
+
 .social>a {
   margin: 0 0.7rem 0 0;
 }
